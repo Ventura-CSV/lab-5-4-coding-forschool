@@ -8,6 +8,11 @@ def minmax(numbers):
     ########################################
     """
 
+    if not numbers:
+        return None, None
+    minval = min(numbers)
+    maxval = max(numbers)
+    
     ########################################
     # Do not delete the return statement
     ########################################
